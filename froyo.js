@@ -11,7 +11,7 @@ let flavor = prompt("Please order your flavors:");
 console.log(flavor);
 
 if (flavor !== null) {
-  console.log("Your order is " + flavor + "!");
+  console.log("Your order is ", flavor);
 } else {
   console.log("You cancelled the prompt.");
 }
