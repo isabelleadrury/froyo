@@ -6,22 +6,12 @@ const flavors = [
   "coffee",
   "coffee",
 ];
-// prompt("Froyo Flavors");
-// const frequencyCounter = {};
-// for (let i = 0; i < flavors.length; i++) {
-//   const flavor = flavors[i];
-//   console.log("flavor", flavor);
-//   if (flavor in frequencyCounter) {
-//     frequencyCounter[flavor] += 1;
-//   } else {
-//     frequencyCounter[flavor] = 1;
-//   }
-// }
 
-let flavor = prompt("Please order your flavors:");
+let flavorFroyo = prompt("Please order your flavors:");
+console.log(flavor["froyo"]);
 
-if (flavors !== null) {
-  console.log("Your order is " + flavors + "!");
+if (flavor !== null) {
+  console.log("Your order is " + flavor + "!");
 } else {
   console.log("You cancelled the prompt.");
 }
